@@ -9,7 +9,7 @@ load_dotenv()
 yag_mail = yagmail.SMTP(user=os.getenv('SENDER_EMAIL'), password=os.getenv(
     'SENDER_EMAIL_PASSWORD'), host='smtp.gmail.com')
 
-recipients = ["ijabiraziz@gmail.com", "jabiraziz430@gmail.com"]
+recipients = ["------@gmail.com", "------@gmail.com"] # recipient can be one or multiple
 subject = "Welcome to MyFitnessCoach!"
 body = ["Welcome to the world of fitness and wellness,"]
 
